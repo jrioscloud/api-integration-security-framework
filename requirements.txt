@@ -1,0 +1,39 @@
+# API Integration Security Policy Framework
+# Production-ready dependencies for enterprise environments
+
+# FastAPI and ASGI server
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+
+# Database and ORM
+sqlalchemy==2.0.23
+alembic==1.12.1
+psycopg2-binary==2.9.9  # PostgreSQL adapter
+
+# Authentication and Security
+pyjwt[crypto]==2.8.0
+passlib[bcrypt]==1.7.4
+python-multipart==0.0.6
+
+# AWS Integration
+boto3==1.35.0
+botocore==1.35.0
+
+# HTTP Client for integrations
+httpx==0.25.2
+
+# Data Validation
+pydantic==2.5.0
+email-validator==2.1.0
+
+# Monitoring and Logging
+psutil==5.9.6
+
+# Development and Testing (optional)
+pytest==7.4.3
+pytest-asyncio==0.21.1
+black==23.11.0
+flake8==6.1.0
+
+# Production deployment (optional)
+gunicorn==21.2.0

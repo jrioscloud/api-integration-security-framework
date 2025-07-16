@@ -117,18 +117,10 @@ dmypy.json
 # Pyre
 .pyre/
 
-# STRATEGIC DOCUMENTS - KEEP PRIVATE
-demo-pitch-script.md
-proposal-positioning-guide.md
-immediate-action-plan.md
-competitive-analysis/
-client-research/
-proposal-templates/
-business-strategy/
-sales-materials/
+# PRIVATE STRATEGY DOCUMENTS - NEVER COMMIT
+private-strategy/**/*
 
 # Development notes
 notes/
 private/
 internal/
-repository-strategy.md

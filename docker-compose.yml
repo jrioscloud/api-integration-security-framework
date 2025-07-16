@@ -1,0 +1,50 @@
+version: '3.8'
+
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - DATABASE_URL=postgresql://apiuser:securepassword@db:5432/api_security_framework
+      - ENVIRONMENT=development
+      - AWS_DEFAULT_REGION=us-east-1
+      # For local development without AWS credentials
+      - AWS_ACCESS_KEY_ID=mock
+      - AWS_SECRET_ACCESS_KEY=mock
+    depends_on:
+      - db
+    volumes:
+      - ./api:/app/api
+      - ./policies:/app/policies
+    restart: unless-stopped
+
+  db:
+    image: postgres:15-alpine
+    environment:
+      - POSTGRES_DB=api_security_framework
+      - POSTGRES_USER=apiuser
+      - POSTGRES_PASSWORD=securepassword
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./docker/init.sql:/docker-entrypoint-initdb.d/init.sql
+    restart: unless-stopped
+
+  # Optional: OPA server for policy validation
+  opa:
+    image: openpolicyagent/opa:latest
+    ports:
+      - "8181:8181"
+    command:
+      - "run"
+      - "--server"
+      - "--addr=0.0.0.0:8181"
+      - "/policies"
+    volumes:
+      - ./policies/opa:/policies
+    restart: unless-stopped
+
+volumes:
+  postgres_data:

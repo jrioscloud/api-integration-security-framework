@@ -31,6 +31,9 @@ cd api-integration-security-framework
 
 This repository demonstrates enterprise-grade patterns for securing third-party API integrations in regulated environments. Built for healthcare, financial services, and other compliance-critical industries.
 
+**📖 [Complete Technical Walkthrough →](TECHNICAL_WALKTHROUGH.md)**  
+*Deep dive into the MedConnect healthcare platform architecture, enterprise security patterns, and business context*
+
 ### Core Architecture
 
 - **FastAPI Application** with enterprise security middleware
@@ -142,6 +145,11 @@ curl -H "Authorization: Bearer [token]" \
 
 ## 📚 Technical Documentation
 
+### Core Documentation
+
+- **[Technical Walkthrough](TECHNICAL_WALKTHROUGH.md)** - Complete architecture deep dive with business context
+- **[Live API Documentation](http://localhost:8000/docs)** - Interactive Swagger UI (when running locally)
+
 ### Implementation Guides
 
 - [Architecture Overview](docs/architecture.md)
@@ -159,11 +167,15 @@ curl -H "Authorization: Bearer [token]" \
 
 ## 🎯 Use Cases
 
-### Healthcare Technology
+### Healthcare Technology (Primary Demo Context)
 
+- **MedConnect Platform**: Telemedicine + practice management with enterprise security
 - EHR system integrations with HIPAA compliance
 - Patient data APIs with automated PHI protection
+- Insurance verification and payment processing
 - Medical device integration security
+
+*📖 See [Technical Walkthrough](TECHNICAL_WALKTHROUGH.md) for complete healthcare platform architecture*
 
 ### Financial Services
 

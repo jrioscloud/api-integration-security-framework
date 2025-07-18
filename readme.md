@@ -7,6 +7,9 @@
 [![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=flat&logo=docker&logoColor=white)](https://www.docker.com/)
 [![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=flat&logo=amazon-aws&logoColor=white)](https://aws.amazon.com/)
 
+**🏗️ [What is this Framework? →](FRAMEWORK_EXPLAINED.md)**  
+*Architectural patterns for adaptation, not a software library for installation*
+
 ## 🚀 Live Demo
 
 **Run locally in 2 minutes:**
@@ -147,6 +150,7 @@ curl -H "Authorization: Bearer [token]" \
 
 ### Core Documentation
 
+- **[What is this Framework?](FRAMEWORK_EXPLAINED.md)** - Understanding architectural vs software frameworks, strategic value, and business positioning
 - **[Technical Walkthrough](TECHNICAL_WALKTHROUGH.md)** - Complete architecture deep dive with business context
 - **[Live API Documentation](http://localhost:8000/docs)** - Interactive Swagger UI (when running locally)
 
@@ -193,7 +197,15 @@ curl -H "Authorization: Bearer [token]" \
 
 ## 🤝 Professional Services
 
-This framework demonstrates architectural patterns developed for enterprise environments requiring stringent security and compliance controls.
+This framework demonstrates architectural patterns for enterprise environments requiring stringent security and compliance controls.
+
+**Framework Adaptation Services:**
+- Architecture assessment against proven security patterns
+- Custom framework adaptation for your technology stack  
+- Enterprise security implementation and team training
+- Ongoing architecture support and pattern evolution
+
+*📖 See [Framework Explained](FRAMEWORK_EXPLAINED.md) for detailed engagement models and business value proposition*
 
 **For custom implementations or enterprise deployments:**
 
@@ -211,7 +223,7 @@ This framework demonstrates architectural patterns developed for enterprise envi
 
 ## 📄 License
 
-Copyright (c) 2025 [Your Name]. All rights reserved.
+Copyright (c) 2025 Jaime Rios. All rights reserved.
 
 This software is provided for portfolio demonstration and educational purposes only.
 Commercial use requires explicit written permission from the author.

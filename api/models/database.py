@@ -1,3 +1,7 @@
+# Copyright (c) 2025 Jaime Rios. All rights reserved.
+# This software is provided for portfolio demonstration and educational purposes only.
+# Commercial use requires explicit written permission from the author.
+
 """
 Database Models for API Integration Security Framework
 

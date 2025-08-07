@@ -15,7 +15,7 @@
 **Run locally in 2 minutes:**
 
 ```bash
-git clone https://github.com/[your-username]/api-integration-security-framework
+git clone https://github.com/[jrioscloud]/api-integration-security-framework
 cd api-integration-security-framework
 ./scripts/local_setup.sh
 ```
@@ -209,8 +209,8 @@ This framework demonstrates architectural patterns for enterprise environments r
 
 **For custom implementations or enterprise deployments:**
 
-- LinkedIn: [your-linkedin-profile]
-- Email: [your-professional-email]
+- LinkedIn: [https://www.linkedin.com/in/jrioscloud/]
+- Email: [j@jrios.cloud]
 
 **Expertise areas:**
 
@@ -228,7 +228,7 @@ Copyright (c) 2025 Jaime Rios. All rights reserved.
 This software is provided for portfolio demonstration and educational purposes only.
 Commercial use requires explicit written permission from the author.
 
-Contact [your-email] for licensing inquiries.
+Contact [j@jrios.cloud] for licensing inquiries.
 
 ---
 

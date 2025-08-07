@@ -33,7 +33,6 @@ env.bak/
 venv.bak/
 
 # IDEs
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -61,6 +60,7 @@ Thumbs.db
 secrets/
 credentials/
 
+temp_auto_push.bat
 # Test coverage
 htmlcov/
 .tox/
@@ -124,3 +124,5 @@ private-strategy/**/*
 notes/
 private/
 internal/
+.gitignore
+temp_interactive_push.bat
